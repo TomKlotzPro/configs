@@ -17,7 +17,7 @@ rm -rf .zfunctions/pure
 git clone git@github.com:sindresorhus/pure.git .zfunctions/pure
 
 # Create relatives links
-rm -f ~/.vim*             && ln -s $PWD/.vim* ~
+rm -rf ~/.vim*            && ln -s $PWD/.vim* ~
 rm -f ~/.zshrc            && ln -s $PWD/.zshrc ~
 rm -f ~/.zfunctions       && ln -s $PWD/.zfunctions ~
 ln -s $PWD/pure/pure.zsh  ~/.zfunctions/pure/prompt_pure_setup
