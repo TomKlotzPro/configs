@@ -1,6 +1,6 @@
 #! /bin/bash
 
-echo "> Current configuration files for Git, Vim and ZSH will be overriden."
+echo "> Current configuration files for Vim and ZSH will be overriden."
 echo "> Press any key to continue or press ^C to abort"
 read
 
