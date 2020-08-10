@@ -47,7 +47,9 @@ export SAVEHIST=10000
 eval "$(rbenv init -)"
 
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
-export PATH="$PATH:$HOME/.composer/vendor/bin"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PATH="$HOME/.rvm/bin:$PATH"
 export PATH="$HOME/.symfony/bin:$PATH"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
@@ -57,7 +59,6 @@ export NVM_DIR=~/.nvm
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 
-export PATH="$PATH:$HOME/.rvm/bin"
 #eval "$(pyenv init -)"
 
 alias j='fasd_cd -d'
