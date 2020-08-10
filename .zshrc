@@ -1,5 +1,9 @@
 #Path to the pur zsh
-fpath+=$HOME/.zsh/pure
+fpath=(
+  "$HOME/.zfunctions"
+  "$HOME/.zfunctions/pure"
+  $fpath
+)
 
 autoload -U colors && colors
 autoload -U compinit compdef && compinit

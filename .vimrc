@@ -32,6 +32,9 @@ inoremap <right> <nop>
 vnoremap <right> <nop>
 noremap <right> <nop>
 
+filetype off
+filetype plugin indent on
+language C
 syntax on
 
 set t_Co=256
